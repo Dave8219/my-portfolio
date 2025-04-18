@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, Paper, Scissors, Game</title>
+
+<link rel="stylesheet" href="games.css">
+
+</head>
+<body>
+  
+<h1>Play & Win</h1>
+
+
+  <div class="game-container">
+    <div class="button-containers">
+      <button class="game-icons js-rock">
+        <img src="/images/rock-emoji.png" class="game-images">
+        <div class="game-text">
+            Rock</div>
+        </button>
+    </div>
+
+        <div class="button-containers">
+          <button class="game-icons js-paper">
+            <img src="/images/paper-emoji.png" class="game-images">
+            <div class="game-text">
+                Paper</div>
+            </button>
+        </div>
+        
+    <div class="button-containers">
+      <button class="game-icons js-scissors">
+        <img src="/images/scissors-emoji.png" class="game-images">
+        <div class="game-text">Scissors</div>
+      </button> 
+    </div>    
+    </div>
+
+
+<p class="score js-score"></p>
+<h4>Score</h4>
+<p class="js-my-score"></p>
+
+<button class="reset-button js-reset-button">Reset</button>
+
+
+
+<div class="button-box">
+  <button class="game-icons js-scissors">
+    <img src="/images/scissors-emoji.png" class="game-images">
+    <div class="game-text">Scissors</div>
+  </button> 
+</div>    
+
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form> 
+
+
+<script src="game.js">
+</script>
+
+</body>
+</html>
